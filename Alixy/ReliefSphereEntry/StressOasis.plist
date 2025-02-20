@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>botName</key>
+		<string>ChillBot</string>
+		<key>botBio</key>
+		<string>Chat about daily stress like work or relationships. Get soothing words and stress relief tips</string>
+		<key>botPic</key>
+		<string>40b41bd1-2070-4fb9-8781-23038b0c33a1.png</string>
+		<key>botId</key>
+		<string>40b41bd1-2070-4fb9-8781-23038b0c33a1</string>
+		<key>botCreater</key>
+		<string>Elise</string>
+		<key>botCreaterId</key>
+		<string>e1a15062-93bc-414e-8f4e-e9894b4d1fdd.jpg</string>
+		<key>botCreaterBio</key>
+		<string>A calm soul seeking meaningful conversations to de-stress.</string>
+		<key>trackerContent</key>
+		<string>Walked around the park. The fresh air and greenery made stress hit the road. </string>
+		<key>botOrbs</key>
+		<integer>0</integer>
+		<key>trackerPics</key>
+		<array>
+			<string>47f7c5d9-63d6-40e2-8e02-c4a6d173be68.jpg</string>
+			<string>b9f70460-d75d-445f-90f0-b12cb984d1d2.jpg</string>
+			<string>e783f7f1-4120-4438-a7ce-699f93242d6c.jpg</string>
+		</array>
+	</dict>
+	<dict>
+		<key>botName</key>
+		<string>StressBuster</string>
+		<key>botBio</key>
+		<string> Share anxieties. Analyze stress roots and get overcoming strategies.</string>
+		<key>botPic</key>
+		<string>54bdedb3-d7cf-4344-83c1-46967f575d77.png</string>
+		<key>botId</key>
+		<string>54bdedb3-d7cf-4344-83c1-46967f575d77</string>
+		<key>botCreater</key>
+		<string>Elise</string>
+		<key>botCreaterId</key>
+		<string>e1a15062-93bc-414e-8f4e-e9894b4d1fdd.jpg</string>
+	</dict>
+	<dict>
+		<key>botName</key>
+		<string>RelaxBuddy</string>
+		<key>botBio</key>
+		<string>Mention tight schedules. Get time management and relaxation advice.</string>
+		<key>botPic</key>
+		<string>3e709140-5962-4cb5-9432-e0f24f3c7ce5.png</string>
+		<key>botId</key>
+		<string>3e709140-5962-4cb5-9432-e0f24f3c7ce5</string>
+		<key>botCreater</key>
+		<string>Sadie</string>
+		<key>botCreaterId</key>
+		<string>8e881152-a768-4e24-876f-72459406b3b7.jpg</string>
+		<key>botCreaterBio</key>
+		<string>An explorer of tranquility and positivity.</string>
+		<key>trackerContent</key>
+		<string>Heard the birds chirping. Stress? Forgot all about it in a sec. </string>
+		<key>trackerPics</key>
+		<array>
+			<string>07b9e5ff-c24b-41eb-8c74-d09748af30501.jpg</string>
+			<string>07b9e5ff-c24b-41eb-8c74-d09748af30502.jpg</string>
+			<string>07b9e5ff-c24b-41eb-8c74-d09748af30503.jpg</string>
+		</array>
+	</dict>
+	<dict>
+		<key>botName</key>
+		<string>PeacePal</string>
+		<key>botBio</key>
+		<string>Discuss conflicts and stress. Find better conflict handling ways. </string>
+		<key>botPic</key>
+		<string>b7c81f7e-422e-4fdb-b928-1fd3a28143a8.png</string>
+		<key>botId</key>
+		<string>b7c81f7e-422e-4fdb-b928-1fd3a28143a8</string>
+		<key>botCreater</key>
+		<string>Percy</string>
+		<key>botCreaterId</key>
+		<string>8a2936a5-1ae5-4ed9-9eb1-598f38cd3b37.jpg</string>
+		<key>botCreaterBio</key>
+		<string>Loves sharing life’s moments and finding inner peace.</string>
+		<key>trackerContent</key>
+		<string>Had a spoonful of that creamy ice cream. Oh, stress, you&apos;re no match for this deliciousness. </string>
+		<key>trackerPics</key>
+		<array>
+			<string>51291d77-19db-4e6b-aa1b-bb93c997d17b.jpg</string>
+			<string>51291d77-19db-4e6b-aa1b-bb93c997d17b2.jpg</string>
+		</array>
+	</dict>
+	<dict>
+		<key>botName</key>
+		<string>ReliefRover</string>
+		<key>botBio</key>
+		<string>Talk about any stress situation. Get solutions and a positive outlook. </string>
+		<key>botPic</key>
+		<string>4d87f7fc-c382-4fa8-a5c8-51a5dcf16f15.png</string>
+		<key>botId</key>
+		<string>4d87f7fc-c382-4fa8-a5c8-51a5dcf16f15</string>
+		<key>botCreater</key>
+		<string>Tate</string>
+		<key>botCreaterId</key>
+		<string>cda667f0-aa93-4d49-aa22-5fc94e2c415e.jpg</string>
+		<key>botCreaterBio</key>
+		<string>Believes that every problem has a calm solution.</string>
+		<key>trackerContent</key>
+		<string>Just had a bite of that amazing pizza. Man, it&apos;s like stress just took a hike! </string>
+		<key>trackerPics</key>
+		<array>
+			<string>b9d9925a-23c6-4620-a011-28e46695de751.jpg</string>
+			<string>b9d9925a-23c6-4620-a011-28e46695de752.jpg</string>
+			<string>b9d9925a-23c6-4620-a011-28e46695de753.jpg</string>
+		</array>
+	</dict>
+	<dict>
+		<key>botName</key>
+		<string>ZenMate</string>
+		<key>botBio</key>
+		<string>Talk about finding inner peace. Get meditation and stress management insights</string>
+		<key>botPic</key>
+		<string>3fd336dc-8eb9-4e09-acda-3f76469e3658.png</string>
+		<key>botId</key>
+		<string>3fd336dc-8eb9-4e09-acda-3f76469e3658</string>
+		<key>botCreater</key>
+		<string>Caleb</string>
+		<key>botCreaterId</key>
+		<string>8ec894d4-c1ed-41b4-80c8-8c14c1f364f5.jpg</string>
+		<key>botCreaterBio</key>
+		<string>A friendly spirit looking for lighthearted chats and stress relief.</string>
+		<key>trackerContent</key>
+		<string>Had a spoonful of that creamy ice cream. Oh, stress, you&apos;re no match for this deliciousness. </string>
+		<key>trackerPics</key>
+		<array>
+			<string>f259f353-8aab-499a-a9ac-4ff4de59ecbe1.jpg</string>
+			<string>f259f353-8aab-499a-a9ac-4ff4de59ecbe2.jpg</string>
+			<string>f259f353-8aab-499a-a9ac-4ff4de59ecbe3.jpg</string>
+		</array>
+	</dict>
+	<dict>
+		<key>botName</key>
+		<string>SoothBot</string>
+		<key>botBio</key>
+		<string>Chat about stress from work or study, get comfort and simple stress relief ideas. </string>
+		<key>botPic</key>
+		<string>0be3d832-075f-454d-9cf4-bce0fd0a85fc.png</string>
+		<key>botId</key>
+		<string>0be3d832-075f-454d-9cf4-bce0fd0a85fc</string>
+		<key>botCreater</key>
+		<string>Basil</string>
+		<key>botCreaterId</key>
+		<string>3d7df388-34d4-436f-9787-a020ed556169.jpg</string>
+		<key>botCreaterBio</key>
+		<string>Passionate about helping others unwind and relax.</string>
+		<key>trackerContent</key>
+		<string>Hit the ski slopes and felt the adrenaline rush. Stress was left far behind as I carved through the snow. </string>
+		<key>trackerPics</key>
+		<array>
+			<string>163c4562-8d6c-4a82-8c2e-ee63df2c6c8c1.jpg</string>
+			<string>163c4562-8d6c-4a82-8c2e-ee63df2c6c8c2.jpg</string>
+			<string>163c4562-8d6c-4a82-8c2e-ee63df2c6c8c3.jpg</string>
+		</array>
+	</dict>
+	<dict>
+		<key>botName</key>
+		<string>EaseMate</string>
+		<key>botBio</key>
+		<string>Share daily annoyances, receive advice on easing mental strain and staying positive. </string>
+		<key>botPic</key>
+		<string>823e1e96-46cb-4708-b29b-2ae4785022bf.png</string>
+		<key>botId</key>
+		<string>823e1e96-46cb-4708-b29b-2ae4785022bf</string>
+		<key>botCreater</key>
+		<string>Lucien</string>
+		<key>botCreaterId</key>
+		<string>69f76c61-a2c2-4269-aaca-9296e98b7d74.jpg</string>
+		<key>botCreaterBio</key>
+		<string>Loves deep conversations and learning from others’ perspectives.</string>
+		<key>trackerContent</key>
+		<string>Caught sight of the mountains. All that stress? Gone with the wind!</string>
+		<key>trackerPics</key>
+		<array>
+			<string>bb139fee-70a3-4d9d-bd40-23a2b33f9df71.jpg</string>
+			<string>bb139fee-70a3-4d9d-bd40-23a2b33f9df72.jpg</string>
+			<string>bb139fee-70a3-4d9d-bd40-23a2b33f9df73.jpg</string>
+		</array>
+	</dict>
+	<dict>
+		<key>botName</key>
+		<string>Sereno</string>
+		<key>botBio</key>
+		<string>Talk about your anxiety about the future, get strategies to build confidence and reduce worry. </string>
+		<key>botPic</key>
+		<string>a3991acd-870d-4a2c-854b-31f634ed87b3.png</string>
+		<key>botId</key>
+		<string>a3991acd-870d-4a2c-854b-31f634ed87b3</string>
+		<key>botCreater</key>
+		<string>Sage</string>
+		<key>botCreaterId</key>
+		<string>edb09f7c-b279-4e2c-89b3-66e94b05bd35.jpg</string>
+		<key>botCreaterBio</key>
+		<string>Enjoys quiet nights and meaningful talks.</string>
+		<key>trackerContent</key>
+		<string>Gaze upon the mountains, and let all your stress vanish with the breeze.</string>
+		<key>trackerPics</key>
+		<array>
+			<string>f63fe1db-38cc-43f8-80c4-a832a80c01071.jpg</string>
+			<string>f63fe1db-38cc-43f8-80c4-a832a80c01072.jpg</string>
+			<string>f63fe1db-38cc-43f8-80c4-a832a80c01073.jpg</string>
+		</array>
+	</dict>
+</array>
+</plist>

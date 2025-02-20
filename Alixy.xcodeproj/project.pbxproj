@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040382B62D544D72004971F2 /* ReliefMatrixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040382B52D544D72004971F2 /* ReliefMatrixViewController.swift */; };
+		040382B82D548CFF004971F2 /* AlyPrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040382B72D548CFF004971F2 /* AlyPrivacyPolicyViewController.swift */; };
+		045B77332D3200F40048BB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045B772A2D3200F40048BB9B /* Assets.xcassets */; };
+		045B77352D3200F40048BB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045B772D2D3200F40048BB9B /* LaunchScreen.storyboard */; };
+		045B77362D3200F40048BB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045B772F2D3200F40048BB9B /* Main.storyboard */; };
+		045B77372D3200F40048BB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77292D3200F40048BB9B /* AppDelegate.swift */; };
+		045B77382D3200F40048BB9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77302D3200F40048BB9B /* SceneDelegate.swift */; };
+		045B77622D32020F0048BB9B /* EditAlixyUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77482D32020F0048BB9B /* EditAlixyUserInfoViewController.swift */; };
+		045B77632D32020F0048BB9B /* PersonaForgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77552D32020F0048BB9B /* PersonaForgeViewController.swift */; };
+		045B77642D32020F0048BB9B /* ReportAlixyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77562D32020F0048BB9B /* ReportAlixyViewController.swift */; };
+		045B77652D32020F0048BB9B /* HarmonyDialoguesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77502D32020F0048BB9B /* HarmonyDialoguesViewController.swift */; };
+		045B77662D32020F0048BB9B /* AboutAlixyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77432D32020F0048BB9B /* AboutAlixyViewController.swift */; };
+		045B77672D32020F0048BB9B /* InteractiveHavenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77542D32020F0048BB9B /* InteractiveHavenViewController.swift */; };
+		045B77682D32020F0048BB9B /* AlixyUserPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B775B2D32020F0048BB9B /* AlixyUserPrivacyViewController.swift */; };
+		045B77692D32020F0048BB9B /* AlixySettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77452D32020F0048BB9B /* AlixySettingTableViewController.swift */; };
+		045B776A2D32020F0048BB9B /* DialoguesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B774E2D32020F0048BB9B /* DialoguesDetailViewController.swift */; };
+		045B776B2D32020F0048BB9B /* GuidedSerenityTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B775C2D32020F0048BB9B /* GuidedSerenityTabbarController.swift */; };
+		045B776C2D32020F0048BB9B /* LifeScribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77492D32020F0048BB9B /* LifeScribeViewController.swift */; };
+		045B776D2D32020F0048BB9B /* TracterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B773C2D32020F0048BB9B /* TracterCollectionViewCell.swift */; };
+		045B776E2D32020F0048BB9B /* ReliefRoverBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B775D2D32020F0048BB9B /* ReliefRoverBot.swift */; };
+		045B776F2D32020F0048BB9B /* TrackerDetailComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B773A2D32020F0048BB9B /* TrackerDetailComment.swift */; };
+		045B77702D32020F0048BB9B /* StressReliefAccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77602D32020F0048BB9B /* StressReliefAccessViewController.swift */; };
+		045B77712D32020F0048BB9B /* MoodTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77462D32020F0048BB9B /* MoodTrackerViewController.swift */; };
+		045B77722D32020F0048BB9B /* TiveHavenDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77412D32020F0048BB9B /* TiveHavenDetailViewController.swift */; };
+		045B77732D32020F0048BB9B /* EmotionThroughDialogueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B774F2D32020F0048BB9B /* EmotionThroughDialogueController.swift */; };
+		045B77742D32020F0048BB9B /* AlixyHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77582D32020F0048BB9B /* AlixyHub.swift */; };
+		045B77752D32020F0048BB9B /* JourneyTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77402D32020F0048BB9B /* JourneyTrackerViewController.swift */; };
+		045B77762D32020F0048BB9B /* AlixyBotOrdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77442D32020F0048BB9B /* AlixyBotOrdsViewController.swift */; };
+		045B77772D32020F0048BB9B /* TracterDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B773D2D32020F0048BB9B /* TracterDetailCollectionViewCell.swift */; };
+		045B77782D32020F0048BB9B /* InteractiveHavenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B77522D32020F0048BB9B /* InteractiveHavenCollectionViewCell.swift */; };
+		045B77792D32020F0048BB9B /* DialoguesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B774C2D32020F0048BB9B /* DialoguesTableViewCell.swift */; };
+		045B777A2D32020F0048BB9B /* DialoguesBotLocalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B774B2D32020F0048BB9B /* DialoguesBotLocalTableViewCell.swift */; };
+		045B777B2D32020F0048BB9B /* EmotionSculptingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B773F2D32020F0048BB9B /* EmotionSculptingViewController.swift */; };
+		045B777C2D32020F0048BB9B /* ReliefSphereEntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B775E2D32020F0048BB9B /* ReliefSphereEntryController.swift */; };
+		045B777D2D32020F0048BB9B /* AlixyPrivacyPolicy.html in Resources */ = {isa = PBXBuildFile; fileRef = 045B77592D32020F0048BB9B /* AlixyPrivacyPolicy.html */; };
+		045B777E2D32020F0048BB9B /* StressOasis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 045B775F2D32020F0048BB9B /* StressOasis.plist */; };
+		045B777F2D32020F0048BB9B /* AlixyUserAgreement.html in Resources */ = {isa = PBXBuildFile; fileRef = 045B775A2D32020F0048BB9B /* AlixyUserAgreement.html */; };
+		045B77802D32020F0048BB9B /* TrackerDetailComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045B773B2D32020F0048BB9B /* TrackerDetailComment.xib */; };
+		048056122D536AFA00DB9400 /* MindfulBotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048056112D536AFA00DB9400 /* MindfulBotViewController.swift */; };
+		54F9F08BFE9A59E17E02FDAE /* Pods_Alixy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E5AFDA5B1C553CBFED4157 /* Pods_Alixy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040382B52D544D72004971F2 /* ReliefMatrixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliefMatrixViewController.swift; sourceTree = "<group>"; };
+		040382B72D548CFF004971F2 /* AlyPrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlyPrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		040382B92D54A13F004971F2 /* Alixy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Alixy.entitlements; sourceTree = "<group>"; };
+		045B77112D3200EE0048BB9B /* Alixy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alixy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045B77292D3200F40048BB9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		045B772A2D3200F40048BB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045B772B2D3200F40048BB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045B772C2D3200F40048BB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		045B772E2D3200F40048BB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045B77302D3200F40048BB9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		045B773A2D32020F0048BB9B /* TrackerDetailComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerDetailComment.swift; sourceTree = "<group>"; };
+		045B773B2D32020F0048BB9B /* TrackerDetailComment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackerDetailComment.xib; sourceTree = "<group>"; };
+		045B773C2D32020F0048BB9B /* TracterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracterCollectionViewCell.swift; sourceTree = "<group>"; };
+		045B773D2D32020F0048BB9B /* TracterDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracterDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		045B773F2D32020F0048BB9B /* EmotionSculptingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionSculptingViewController.swift; sourceTree = "<group>"; };
+		045B77402D32020F0048BB9B /* JourneyTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyTrackerViewController.swift; sourceTree = "<group>"; };
+		045B77412D32020F0048BB9B /* TiveHavenDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiveHavenDetailViewController.swift; sourceTree = "<group>"; };
+		045B77432D32020F0048BB9B /* AboutAlixyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAlixyViewController.swift; sourceTree = "<group>"; };
+		045B77442D32020F0048BB9B /* AlixyBotOrdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlixyBotOrdsViewController.swift; sourceTree = "<group>"; };
+		045B77452D32020F0048BB9B /* AlixySettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlixySettingTableViewController.swift; sourceTree = "<group>"; };
+		045B77462D32020F0048BB9B /* MoodTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTrackerViewController.swift; sourceTree = "<group>"; };
+		045B77482D32020F0048BB9B /* EditAlixyUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAlixyUserInfoViewController.swift; sourceTree = "<group>"; };
+		045B77492D32020F0048BB9B /* LifeScribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeScribeViewController.swift; sourceTree = "<group>"; };
+		045B774B2D32020F0048BB9B /* DialoguesBotLocalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialoguesBotLocalTableViewCell.swift; sourceTree = "<group>"; };
+		045B774C2D32020F0048BB9B /* DialoguesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialoguesTableViewCell.swift; sourceTree = "<group>"; };
+		045B774E2D32020F0048BB9B /* DialoguesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialoguesDetailViewController.swift; sourceTree = "<group>"; };
+		045B774F2D32020F0048BB9B /* EmotionThroughDialogueController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionThroughDialogueController.swift; sourceTree = "<group>"; };
+		045B77502D32020F0048BB9B /* HarmonyDialoguesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonyDialoguesViewController.swift; sourceTree = "<group>"; };
+		045B77522D32020F0048BB9B /* InteractiveHavenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveHavenCollectionViewCell.swift; sourceTree = "<group>"; };
+		045B77542D32020F0048BB9B /* InteractiveHavenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveHavenViewController.swift; sourceTree = "<group>"; };
+		045B77552D32020F0048BB9B /* PersonaForgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaForgeViewController.swift; sourceTree = "<group>"; };
+		045B77562D32020F0048BB9B /* ReportAlixyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportAlixyViewController.swift; sourceTree = "<group>"; };
+		045B77582D32020F0048BB9B /* AlixyHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlixyHub.swift; sourceTree = "<group>"; };
+		045B77592D32020F0048BB9B /* AlixyPrivacyPolicy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = AlixyPrivacyPolicy.html; sourceTree = "<group>"; };
+		045B775A2D32020F0048BB9B /* AlixyUserAgreement.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = AlixyUserAgreement.html; sourceTree = "<group>"; };
+		045B775B2D32020F0048BB9B /* AlixyUserPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlixyUserPrivacyViewController.swift; sourceTree = "<group>"; };
+		045B775C2D32020F0048BB9B /* GuidedSerenityTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedSerenityTabbarController.swift; sourceTree = "<group>"; };
+		045B775D2D32020F0048BB9B /* ReliefRoverBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliefRoverBot.swift; sourceTree = "<group>"; };
+		045B775E2D32020F0048BB9B /* ReliefSphereEntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliefSphereEntryController.swift; sourceTree = "<group>"; };
+		045B775F2D32020F0048BB9B /* StressOasis.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StressOasis.plist; sourceTree = "<group>"; };
+		045B77602D32020F0048BB9B /* StressReliefAccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressReliefAccessViewController.swift; sourceTree = "<group>"; };
+		048056112D536AFA00DB9400 /* MindfulBotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulBotViewController.swift; sourceTree = "<group>"; };
+		068418C07292D74D8B8B31DA /* Pods-Alixy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alixy.debug.xcconfig"; path = "Target Support Files/Pods-Alixy/Pods-Alixy.debug.xcconfig"; sourceTree = "<group>"; };
+		F2E5AFDA5B1C553CBFED4157 /* Pods_Alixy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alixy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5598C7AB04D7136C95C9B5F /* Pods-Alixy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alixy.release.xcconfig"; path = "Target Support Files/Pods-Alixy/Pods-Alixy.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045B770E2D3200ED0048BB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F9F08BFE9A59E17E02FDAE /* Pods_Alixy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045B77082D3200ED0048BB9B = {
+			isa = PBXGroup;
+			children = (
+				045B77322D3200F40048BB9B /* Alixy */,
+				045B77122D3200EE0048BB9B /* Products */,
+				3C45097F125C8E51C77DEF4E /* Pods */,
+				FC0652123C3D870B9DC79877 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		045B77122D3200EE0048BB9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045B77112D3200EE0048BB9B /* Alixy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045B77322D3200F40048BB9B /* Alixy */ = {
+			isa = PBXGroup;
+			children = (
+				040382B92D54A13F004971F2 /* Alixy.entitlements */,
+				045B77422D32020F0048BB9B /* JourneyTracker */,
+				045B774A2D32020F0048BB9B /* LifeScribe */,
+				045B77572D32020F0048BB9B /* PersonaForge */,
+				045B77612D32020F0048BB9B /* ReliefSphereEntry */,
+				045B77292D3200F40048BB9B /* AppDelegate.swift */,
+				045B772A2D3200F40048BB9B /* Assets.xcassets */,
+				045B772B2D3200F40048BB9B /* Info.plist */,
+				045B772D2D3200F40048BB9B /* LaunchScreen.storyboard */,
+				045B772F2D3200F40048BB9B /* Main.storyboard */,
+				045B77302D3200F40048BB9B /* SceneDelegate.swift */,
+			);
+			path = Alixy;
+			sourceTree = "<group>";
+		};
+		045B773E2D32020F0048BB9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				045B773A2D32020F0048BB9B /* TrackerDetailComment.swift */,
+				045B773B2D32020F0048BB9B /* TrackerDetailComment.xib */,
+				045B773C2D32020F0048BB9B /* TracterCollectionViewCell.swift */,
+				045B773D2D32020F0048BB9B /* TracterDetailCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		045B77422D32020F0048BB9B /* JourneyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				045B773E2D32020F0048BB9B /* View */,
+				045B773F2D32020F0048BB9B /* EmotionSculptingViewController.swift */,
+				045B77402D32020F0048BB9B /* JourneyTrackerViewController.swift */,
+				045B77412D32020F0048BB9B /* TiveHavenDetailViewController.swift */,
+			);
+			path = JourneyTracker;
+			sourceTree = "<group>";
+		};
+		045B77472D32020F0048BB9B /* AlixySetting */ = {
+			isa = PBXGroup;
+			children = (
+				045B77432D32020F0048BB9B /* AboutAlixyViewController.swift */,
+				045B77442D32020F0048BB9B /* AlixyBotOrdsViewController.swift */,
+				045B77452D32020F0048BB9B /* AlixySettingTableViewController.swift */,
+				045B77462D32020F0048BB9B /* MoodTrackerViewController.swift */,
+			);
+			path = AlixySetting;
+			sourceTree = "<group>";
+		};
+		045B774A2D32020F0048BB9B /* LifeScribe */ = {
+			isa = PBXGroup;
+			children = (
+				045B77472D32020F0048BB9B /* AlixySetting */,
+				045B77482D32020F0048BB9B /* EditAlixyUserInfoViewController.swift */,
+				045B77492D32020F0048BB9B /* LifeScribeViewController.swift */,
+			);
+			path = LifeScribe;
+			sourceTree = "<group>";
+		};
+		045B774D2D32020F0048BB9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				045B774B2D32020F0048BB9B /* DialoguesBotLocalTableViewCell.swift */,
+				045B774C2D32020F0048BB9B /* DialoguesTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		045B77512D32020F0048BB9B /* HarmonyDialogues */ = {
+			isa = PBXGroup;
+			children = (
+				045B774D2D32020F0048BB9B /* View */,
+				045B774E2D32020F0048BB9B /* DialoguesDetailViewController.swift */,
+				045B774F2D32020F0048BB9B /* EmotionThroughDialogueController.swift */,
+				045B77502D32020F0048BB9B /* HarmonyDialoguesViewController.swift */,
+			);
+			path = HarmonyDialogues;
+			sourceTree = "<group>";
+		};
+		045B77532D32020F0048BB9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				045B77522D32020F0048BB9B /* InteractiveHavenCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		045B77572D32020F0048BB9B /* PersonaForge */ = {
+			isa = PBXGroup;
+			children = (
+				045B77512D32020F0048BB9B /* HarmonyDialogues */,
+				045B77532D32020F0048BB9B /* View */,
+				045B77542D32020F0048BB9B /* InteractiveHavenViewController.swift */,
+				045B77552D32020F0048BB9B /* PersonaForgeViewController.swift */,
+				045B77562D32020F0048BB9B /* ReportAlixyViewController.swift */,
+			);
+			path = PersonaForge;
+			sourceTree = "<group>";
+		};
+		045B77612D32020F0048BB9B /* ReliefSphereEntry */ = {
+			isa = PBXGroup;
+			children = (
+				045B77582D32020F0048BB9B /* AlixyHub.swift */,
+				045B77592D32020F0048BB9B /* AlixyPrivacyPolicy.html */,
+				045B775A2D32020F0048BB9B /* AlixyUserAgreement.html */,
+				045B775B2D32020F0048BB9B /* AlixyUserPrivacyViewController.swift */,
+				045B775C2D32020F0048BB9B /* GuidedSerenityTabbarController.swift */,
+				045B775D2D32020F0048BB9B /* ReliefRoverBot.swift */,
+				045B775E2D32020F0048BB9B /* ReliefSphereEntryController.swift */,
+				048056112D536AFA00DB9400 /* MindfulBotViewController.swift */,
+				045B775F2D32020F0048BB9B /* StressOasis.plist */,
+				045B77602D32020F0048BB9B /* StressReliefAccessViewController.swift */,
+				040382B52D544D72004971F2 /* ReliefMatrixViewController.swift */,
+				040382B72D548CFF004971F2 /* AlyPrivacyPolicyViewController.swift */,
+			);
+			path = ReliefSphereEntry;
+			sourceTree = "<group>";
+		};
+		3C45097F125C8E51C77DEF4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				068418C07292D74D8B8B31DA /* Pods-Alixy.debug.xcconfig */,
+				F5598C7AB04D7136C95C9B5F /* Pods-Alixy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC0652123C3D870B9DC79877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2E5AFDA5B1C553CBFED4157 /* Pods_Alixy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		045B77102D3200ED0048BB9B /* Alixy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045B77242D3200EF0048BB9B /* Build configuration list for PBXNativeTarget "Alixy" */;
+			buildPhases = (
+				0EC9C5DA8E81640B1E6D49E0 /* [CP] Check Pods Manifest.lock */,
+				045B770D2D3200ED0048BB9B /* Sources */,
+				045B770E2D3200ED0048BB9B /* Frameworks */,
+				045B770F2D3200ED0048BB9B /* Resources */,
+				4F1AA2EA65229BD9DD1648AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alixy;
+			productName = Alixy;
+			productReference = 045B77112D3200EE0048BB9B /* Alixy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045B77092D3200ED0048BB9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					045B77102D3200ED0048BB9B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 045B770C2D3200ED0048BB9B /* Build configuration list for PBXProject "Alixy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045B77082D3200ED0048BB9B;
+			productRefGroup = 045B77122D3200EE0048BB9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045B77102D3200ED0048BB9B /* Alixy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045B770F2D3200ED0048BB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045B777D2D32020F0048BB9B /* AlixyPrivacyPolicy.html in Resources */,
+				045B777E2D32020F0048BB9B /* StressOasis.plist in Resources */,
+				045B777F2D32020F0048BB9B /* AlixyUserAgreement.html in Resources */,
+				045B77802D32020F0048BB9B /* TrackerDetailComment.xib in Resources */,
+				045B77332D3200F40048BB9B /* Assets.xcassets in Resources */,
+				045B77352D3200F40048BB9B /* LaunchScreen.storyboard in Resources */,
+				045B77362D3200F40048BB9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EC9C5DA8E81640B1E6D49E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alixy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F1AA2EA65229BD9DD1648AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alixy/Pods-Alixy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alixy/Pods-Alixy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alixy/Pods-Alixy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045B770D2D3200ED0048BB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045B77372D3200F40048BB9B /* AppDelegate.swift in Sources */,
+				045B77622D32020F0048BB9B /* EditAlixyUserInfoViewController.swift in Sources */,
+				045B77632D32020F0048BB9B /* PersonaForgeViewController.swift in Sources */,
+				045B77642D32020F0048BB9B /* ReportAlixyViewController.swift in Sources */,
+				045B77652D32020F0048BB9B /* HarmonyDialoguesViewController.swift in Sources */,
+				045B77662D32020F0048BB9B /* AboutAlixyViewController.swift in Sources */,
+				045B77672D32020F0048BB9B /* InteractiveHavenViewController.swift in Sources */,
+				045B77682D32020F0048BB9B /* AlixyUserPrivacyViewController.swift in Sources */,
+				045B77692D32020F0048BB9B /* AlixySettingTableViewController.swift in Sources */,
+				045B776A2D32020F0048BB9B /* DialoguesDetailViewController.swift in Sources */,
+				045B776B2D32020F0048BB9B /* GuidedSerenityTabbarController.swift in Sources */,
+				045B776C2D32020F0048BB9B /* LifeScribeViewController.swift in Sources */,
+				045B776D2D32020F0048BB9B /* TracterCollectionViewCell.swift in Sources */,
+				045B776E2D32020F0048BB9B /* ReliefRoverBot.swift in Sources */,
+				048056122D536AFA00DB9400 /* MindfulBotViewController.swift in Sources */,
+				045B776F2D32020F0048BB9B /* TrackerDetailComment.swift in Sources */,
+				045B77702D32020F0048BB9B /* StressReliefAccessViewController.swift in Sources */,
+				045B77712D32020F0048BB9B /* MoodTrackerViewController.swift in Sources */,
+				040382B82D548CFF004971F2 /* AlyPrivacyPolicyViewController.swift in Sources */,
+				045B77722D32020F0048BB9B /* TiveHavenDetailViewController.swift in Sources */,
+				045B77732D32020F0048BB9B /* EmotionThroughDialogueController.swift in Sources */,
+				045B77742D32020F0048BB9B /* AlixyHub.swift in Sources */,
+				040382B62D544D72004971F2 /* ReliefMatrixViewController.swift in Sources */,
+				045B77752D32020F0048BB9B /* JourneyTrackerViewController.swift in Sources */,
+				045B77762D32020F0048BB9B /* AlixyBotOrdsViewController.swift in Sources */,
+				045B77772D32020F0048BB9B /* TracterDetailCollectionViewCell.swift in Sources */,
+				045B77782D32020F0048BB9B /* InteractiveHavenCollectionViewCell.swift in Sources */,
+				045B77792D32020F0048BB9B /* DialoguesTableViewCell.swift in Sources */,
+				045B777A2D32020F0048BB9B /* DialoguesBotLocalTableViewCell.swift in Sources */,
+				045B777B2D32020F0048BB9B /* EmotionSculptingViewController.swift in Sources */,
+				045B777C2D32020F0048BB9B /* ReliefSphereEntryController.swift in Sources */,
+				045B77382D3200F40048BB9B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		045B772D2D3200F40048BB9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045B772C2D3200F40048BB9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		045B772F2D3200F40048BB9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045B772E2D3200F40048BB9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045B77252D3200EF0048BB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 068418C07292D74D8B8B31DA /* Pods-Alixy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Alixy/Alixy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Alixy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Alixy;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App needs access to the camera to make video calls";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App needs access to microphone to make video calls";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow saving pictures to album?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You need to use your photo album to select photos to upload avatars or publish posts";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alixy.aly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		045B77262D3200EF0048BB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5598C7AB04D7136C95C9B5F /* Pods-Alixy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Alixy/Alixy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Alixy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Alixy;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App needs access to the camera to make video calls";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App needs access to microphone to make video calls";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow saving pictures to album?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You need to use your photo album to select photos to upload avatars or publish posts";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alixy.aly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		045B77272D3200EF0048BB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		045B77282D3200EF0048BB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045B770C2D3200ED0048BB9B /* Build configuration list for PBXProject "Alixy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045B77272D3200EF0048BB9B /* Debug */,
+				045B77282D3200EF0048BB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045B77242D3200EF0048BB9B /* Build configuration list for PBXNativeTarget "Alixy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045B77252D3200EF0048BB9B /* Debug */,
+				045B77262D3200EF0048BB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045B77092D3200ED0048BB9B /* Project object */;
+}
