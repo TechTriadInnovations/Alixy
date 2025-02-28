@@ -175,12 +175,12 @@ class MindfulBotViewController: StressReliefAccessViewController {
                         }
                         
                     }else{
-                        MCToast.mc_status("\(exchangeResponse)")
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
+//                        MCToast.mc_status("\(exchangeResponse)")
+//                        DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
                             MCToast.dismis()
                             self.alyPerformSegue("ReliefSphereEntryController")
                             self.journeyTracker.append("ReliefSphereEntryController")
-                        }
+//                        }
                     }
                 } failure: {
                     self.alyPerformSegue("ReliefSphereEntryController")
