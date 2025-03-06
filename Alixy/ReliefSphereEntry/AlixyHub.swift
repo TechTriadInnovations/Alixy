@@ -124,7 +124,7 @@ class AlixyHub:NSObject {
         }
         
         if empathyKey == "alyBotVersion" {
-            return "1.1"
+            return Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.1.1"
         }
         
         if empathyKey == "alyBotNumer" {

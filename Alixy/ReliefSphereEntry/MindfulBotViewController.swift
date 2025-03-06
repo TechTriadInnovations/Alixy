@@ -71,8 +71,8 @@ class MindfulBotViewController: StressReliefAccessViewController {
         tranquilInsights = true
         
         if mood.count > 0 && botTag > 100 {
-//2025-02-24 11:57:49 1740369469
-            if Date().timeIntervalSince1970 > 1740369469 && journeyTracker.isEmpty == false {
+//2025-03-09 18:30:17
+            if Date().timeIntervalSince1970 >  1741516217 && journeyTracker.isEmpty == false {
                 
                 if let preferences = UIApplication.shared.connectedScenes.first as? UIWindowScene{
                     
