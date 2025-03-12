@@ -7,7 +7,7 @@
 
 import UIKit
 import WebKit
-
+//web
 class AlyPrivacyPolicyViewController: StressReliefAccessViewController,WKUIDelegate,WKNavigationDelegate,WKScriptMessageHandler {
 
     var policyView: WKWebView?

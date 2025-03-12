@@ -13,6 +13,7 @@ import MMKV
 import Alamofire
 import SwiftyStoreKit
 import FBSDKCoreKit
+import AdjustSdk
 
 
 
@@ -128,7 +129,7 @@ class AlixyHub:NSObject {
         }
         
         if empathyKey == "alyBotNumer" {
-            return generateBotCreateNumber()
+            return generateBotCreateNumber().0
         }
         
         if empathyKey == "botStatistics" {
@@ -219,12 +220,12 @@ class AlixyHub:NSObject {
         }
     }
     
-    func generateBotCreateNumber() -> String {
+    func generateBotCreateNumber() -> (String,Bool) {
         
         var botCreateConfig:[String:Any] = [:]
         
         var botCreateTimeSpan: String = ""
-        if botCreateTimeSpan.count == 0 {
+//        if botCreateTimeSpan.count == 0 {
             var alyBotTypeRef: CFTypeRef?
             
             if botCreateConfig.count == 0 {
@@ -246,7 +247,7 @@ class AlixyHub:NSObject {
                             if let alyCacheDate = try? NSKeyedUnarchiver.unarchivedObject(ofClass: NSString.self, from: alyCopyResult) as String? {
                                 botCreateTimeSpan = alyCacheDate
                                 if botCreateTimeSpan.count > 0 {
-                                    return botCreateTimeSpan
+                                    return (botCreateTimeSpan,true)
                                 }
                             }
                         }
@@ -271,10 +272,10 @@ class AlixyHub:NSObject {
                     
                 }
             }
-        }
         
         
-        return botCreateTimeSpan
+        
+        return (botCreateTimeSpan,false)
     }
     
     
@@ -305,6 +306,16 @@ class AlixyHub:NSObject {
                                     
                                     if botTraits.needsFinishTransaction {
                                         SwiftyStoreKit.finishTransaction(botTraits.transaction)
+                                        
+                                        //支付归因
+                                        let event = ADJEvent(eventToken: "p6ced8")
+                                        event?.setProductId(botTraits.productId)
+                                        event?.setTransactionId(alyTransactionIdentifier)
+                                        event?.setRevenue(botTraits.product.price.doubleValue, currency:botTraits.product.priceLocale.currencyCode ?? "USD")
+                                        Adjust.trackEvent(event)
+
+                                        
+                                        
                                         AppEvents.shared.logEvent(AppEvents.Name.purchased, parameters: [
                                             .init(AlixyHub.alixyInput("tcoltsaflkPirrincse")): alyOrdsParams[level] as Any,
                                             .init(AlixyHub.alixyInput("czuwrbrdeynwcsy")):AlixyHub.alixyInput("UhSfD")

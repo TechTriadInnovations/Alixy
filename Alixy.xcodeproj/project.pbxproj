@@ -46,7 +46,7 @@
 		045B777F2D32020F0048BB9B /* AlixyUserAgreement.html in Resources */ = {isa = PBXBuildFile; fileRef = 045B775A2D32020F0048BB9B /* AlixyUserAgreement.html */; };
 		045B77802D32020F0048BB9B /* TrackerDetailComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045B773B2D32020F0048BB9B /* TrackerDetailComment.xib */; };
 		048056122D536AFA00DB9400 /* MindfulBotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048056112D536AFA00DB9400 /* MindfulBotViewController.swift */; };
-		54F9F08BFE9A59E17E02FDAE /* Pods_Alixy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E5AFDA5B1C553CBFED4157 /* Pods_Alixy.framework */; };
+		54F9F08BFE9A59E17E02FDAE /* Pods_Alixy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E5AFDA5B1C553CBFED4157 /* Pods_Alixy.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +91,7 @@
 		045B775E2D32020F0048BB9B /* ReliefSphereEntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliefSphereEntryController.swift; sourceTree = "<group>"; };
 		045B775F2D32020F0048BB9B /* StressOasis.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StressOasis.plist; sourceTree = "<group>"; };
 		045B77602D32020F0048BB9B /* StressReliefAccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressReliefAccessViewController.swift; sourceTree = "<group>"; };
+		0473F84B2D817DBA00838970 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		048056112D536AFA00DB9400 /* MindfulBotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulBotViewController.swift; sourceTree = "<group>"; };
 		068418C07292D74D8B8B31DA /* Pods-Alixy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alixy.debug.xcconfig"; path = "Target Support Files/Pods-Alixy/Pods-Alixy.debug.xcconfig"; sourceTree = "<group>"; };
 		F2E5AFDA5B1C553CBFED4157 /* Pods_Alixy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alixy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -259,6 +260,7 @@
 		FC0652123C3D870B9DC79877 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0473F84B2D817DBA00838970 /* WebKit.framework */,
 				F2E5AFDA5B1C553CBFED4157 /* Pods_Alixy.framework */,
 			);
 			name = Frameworks;
@@ -468,7 +470,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alixy.aly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -510,7 +512,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alixy.aly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

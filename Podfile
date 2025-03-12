@@ -23,6 +23,8 @@ target 'Alixy' do
   pod 'HandyJSON'
   pod 'SwiftyStoreKit'
   
+  
+ pod 'Adjust'
 end
 
 post_install do |installer|

@@ -7,14 +7,52 @@
 
 import UIKit
 import FBSDKCoreKit
-
+import AdjustSdk
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+   
     var window: UIWindow?
 
+    func initAppAdjust() {
+    
+#if DEBUG
+        let environment = ADJEnvironmentSandbox
+        #else
+        let environment = ADJEnvironmentProduction
+#endif
+        
+        let adjustConfig = ADJConfig(
+            appToken: "fr5i4dakvvgg",
+            environment: environment)
+        adjustConfig?.logLevel = ADJLogLevel.verbose
+        Adjust.initSdk(adjustConfig)
+        
+       
+    }
+    
+  
+    //app第一次下载启动     install归因
+    func trackAppInstall() {
+        //钥匙串中 没有存储过该key
+        let resullty = AlixyHub.shared.generateBotCreateNumber()
+        
+        if resullty.1 == false {
+            let event = ADJEvent(eventToken: "7ljsch")
+            event?.addCallbackParameter("userId", value: resullty.0)
+            Adjust.trackEvent(event)
+        }
+        
+        
+    }
+    
+   
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+       
+        initAppAdjust()
+        
+        trackAppInstall()
         
         let alyNoitificationCenter = UNUserNotificationCenter.current()
         

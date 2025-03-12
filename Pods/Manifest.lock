@@ -1,4 +1,9 @@
 PODS:
+  - Adjust (5.1.1):
+    - Adjust/Adjust (= 5.1.1)
+  - Adjust/Adjust (5.1.1):
+    - AdjustSignature (= 3.35.2)
+  - AdjustSignature (3.35.2)
   - Alamofire (5.10.2)
   - BRPickerView (2.9.1):
     - BRPickerView/All (= 2.9.1)
@@ -130,6 +135,7 @@ PODS:
   - SwiftyStoreKit (0.16.1)
 
 DEPENDENCIES:
+  - Adjust (~> 5.1.1)
   - Alamofire
   - BRPickerView
   - FBSDKCoreKit
@@ -148,6 +154,8 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Adjust
+    - AdjustSignature
     - Alamofire
     - BRPickerView
     - Differentiator
@@ -177,6 +185,8 @@ SPEC REPOS:
     - SwiftyStoreKit
 
 SPEC CHECKSUMS:
+  Adjust: 5f5e998cf1446d44d93f91ec8b7b7dd40eaa922d
+  AdjustSignature: 23b9e5d4adcadffc303bb6b410fde617dd88504f
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
   BRPickerView: 6dd69ea2c48e0a0abf1d197a705050e13143ee63
   Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
@@ -205,6 +215,6 @@ SPEC CHECKSUMS:
   SwifterSwift: e9caf990fc72e835432280755d1f4c43f2a483d5
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
 
-PODFILE CHECKSUM: b3fbea8774324ab7a28343ad2fa733982a15145d
+PODFILE CHECKSUM: 1e9ea5d755d667ae1106311db84dd4ee070d52f8
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
