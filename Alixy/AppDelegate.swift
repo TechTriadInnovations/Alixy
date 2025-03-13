@@ -13,21 +13,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
    
     var window: UIWindow?
 
-    func initAppAdjust() {
+    func initAppALIAdjust() {
     
-#if DEBUG
-        let environment = ADJEnvironmentSandbox
-        #else
-        let environment = ADJEnvironmentProduction
-#endif
-        
-        let adjustConfig = ADJConfig(
+
+        let adjustAliConfig = ADJConfig(
             appToken: "fr5i4dakvvgg",
-            environment: environment)
-        adjustConfig?.logLevel = ADJLogLevel.verbose
-        Adjust.initSdk(adjustConfig)
-        
-       
+            environment: ADJEnvironmentProduction)
+        adjustAliConfig?.logLevel = ADJLogLevel.verbose
+        Adjust.initSdk(adjustAliConfig)
+    
     }
     
   
@@ -50,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
        
-        initAppAdjust()
+        initAppALIAdjust()
         
         trackAppInstall()
         
