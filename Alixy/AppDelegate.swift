@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             appToken: "fr5i4dakvvgg",
             environment: ADJEnvironmentProduction)
         adjustAliConfig?.logLevel = ADJLogLevel.verbose
+        adjustAliConfig?.enableSendingInBackground()
         Adjust.initSdk(adjustAliConfig)
     
     }
