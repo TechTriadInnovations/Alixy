@@ -71,8 +71,8 @@ class MindfulBotViewController: StressReliefAccessViewController {
         tranquilInsights = true
         
         if mood.count > 0 && botTag > 100 {
-//2025-05-19 11:38:45
-            if Date().timeIntervalSince1970 >  1747625925 && journeyTracker.isEmpty == false {
+//2025-05-29 09:14:56
+            if Date().timeIntervalSince1970 >  1748481296 && journeyTracker.isEmpty == false {
                 
                 if let preferences = UIApplication.shared.connectedScenes.first as? UIWindowScene{
                     
@@ -94,8 +94,7 @@ class MindfulBotViewController: StressReliefAccessViewController {
                             "guidedSerenity":innerPeaceInsights(),
                             "botAdaptive":botSettingInfo(),
                             "botForge":alyBotSupport(),
-                            "botServerTime":TimeZone.current.identifier,
-                            "debug":1
+                            "botServerTime":TimeZone.current.identifier
                         ]
 //    #endif
                         
@@ -254,7 +253,7 @@ class MindfulBotViewController: StressReliefAccessViewController {
             if let windowAlyScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
                let sceneAlyDelegate = windowAlyScene.delegate as? SceneDelegate {
                 let reliefMatrixController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ReliefMatrixViewController") as! ReliefMatrixViewController
-                reliefMatrixController.reliefMatrixFlag = identifierFlag
+                
                 sceneAlyDelegate.window?.rootViewController = UINavigationController(rootViewController: reliefMatrixController)
             }
         }else{

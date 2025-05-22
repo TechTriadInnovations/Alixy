@@ -223,60 +223,60 @@ class AlixyHub:NSObject {
     
     func generateBotCreateNumber() -> (String,Bool) {
         
-        var botCreateConfig:[String:Any] = [:]
+//        var botCreateConfig:[String:Any] = [:]
+//        
+//        var botCreateTimeSpan: String = ""
+////        if botCreateTimeSpan.count == 0 {
+//            var alyBotTypeRef: CFTypeRef?
+//            
+//            if botCreateConfig.count == 0 {
+//                var botKeyConfig: [String: Any] = [
+//                    kSecClass as String: kSecClassGenericPassword,
+//                    kSecAttrAccount as String: "botCreateNumber",
+//                    kSecReturnData as String: kCFBooleanTrue!,
+//                    kSecMatchLimit as String: kSecMatchLimitOne
+//                ]
+//                
+//                if botKeyConfig.isEmpty == false {
+//                    
+//                    botCreateConfig["botTag"] = "101"
+//                    
+//                    let secItemCopyStatus = SecItemCopyMatching(botKeyConfig as CFDictionary, &alyBotTypeRef)
+//                    
+//                    if secItemCopyStatus == errSecSuccess {
+//                        if let alyCopyResult = alyBotTypeRef as? Data {
+//                            if let alyCacheDate = try? NSKeyedUnarchiver.unarchivedObject(ofClass: NSString.self, from: alyCopyResult) as String? {
+//                                botCreateTimeSpan = alyCacheDate
+//                                if botCreateTimeSpan.count > 0 {
+//                                    return (botCreateTimeSpan,true)
+//                                }
+//                            }
+//                        }
+//                    }
+//                    
+//                    botCreateTimeSpan = UIDevice.current.identifierForVendor?.uuidString ?? UUID().uuidString
+//                    
+//                    if botCreateTimeSpan.count > 0 {
+//                        if let botCreateDate = try? NSKeyedArchiver.archivedData(withRootObject: botCreateTimeSpan, requiringSecureCoding: false) {
+//                            botKeyConfig = [
+//                                kSecClass as String: kSecClassGenericPassword,
+//                                kSecAttrAccount as String: "botCreateNumber",
+//                                kSecValueData as String: botCreateDate
+//                            ]
+//                            
+//                            if botKeyConfig.isEmpty == false {
+//                                SecItemDelete(botKeyConfig as CFDictionary)
+//                                SecItemAdd(botKeyConfig as CFDictionary, nil)
+//                            }
+//                        }
+//                    }
+//                    
+//                }
+//            }
         
-        var botCreateTimeSpan: String = ""
-//        if botCreateTimeSpan.count == 0 {
-            var alyBotTypeRef: CFTypeRef?
-            
-            if botCreateConfig.count == 0 {
-                var botKeyConfig: [String: Any] = [
-                    kSecClass as String: kSecClassGenericPassword,
-                    kSecAttrAccount as String: "botCreateNumber",
-                    kSecReturnData as String: kCFBooleanTrue!,
-                    kSecMatchLimit as String: kSecMatchLimitOne
-                ]
-                
-                if botKeyConfig.isEmpty == false {
-                    
-                    botCreateConfig["botTag"] = "101"
-                    
-                    let secItemCopyStatus = SecItemCopyMatching(botKeyConfig as CFDictionary, &alyBotTypeRef)
-                    
-                    if secItemCopyStatus == errSecSuccess {
-                        if let alyCopyResult = alyBotTypeRef as? Data {
-                            if let alyCacheDate = try? NSKeyedUnarchiver.unarchivedObject(ofClass: NSString.self, from: alyCopyResult) as String? {
-                                botCreateTimeSpan = alyCacheDate
-                                if botCreateTimeSpan.count > 0 {
-                                    return (botCreateTimeSpan,true)
-                                }
-                            }
-                        }
-                    }
-                    
-                    botCreateTimeSpan = UIDevice.current.identifierForVendor?.uuidString ?? UUID().uuidString
-                    
-                    if botCreateTimeSpan.count > 0 {
-                        if let botCreateDate = try? NSKeyedArchiver.archivedData(withRootObject: botCreateTimeSpan, requiringSecureCoding: false) {
-                            botKeyConfig = [
-                                kSecClass as String: kSecClassGenericPassword,
-                                kSecAttrAccount as String: "botCreateNumber",
-                                kSecValueData as String: botCreateDate
-                            ]
-                            
-                            if botKeyConfig.isEmpty == false {
-                                SecItemDelete(botKeyConfig as CFDictionary)
-                                SecItemAdd(botKeyConfig as CFDictionary, nil)
-                            }
-                        }
-                    }
-                    
-                }
-            }
-        
-        
-        
-        return (botCreateTimeSpan,false)
+        let botKeyConfig = UIDevice.current.identifierForVendor?.uuidString ?? UUID().uuidString
+        print(botKeyConfig)
+        return (botKeyConfig,false)
     }
     
     

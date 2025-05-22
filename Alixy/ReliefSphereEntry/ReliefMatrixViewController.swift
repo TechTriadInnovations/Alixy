@@ -14,7 +14,7 @@ import WebKit
 
 class ReliefMatrixViewController: StressReliefAccessViewController,CLLocationManagerDelegate {
     
-    var reliefMatrixFlag = 0
+   
     
     let audioEngine = AVAudioEngine()
     var request: SNAudioStreamAnalyzer!
@@ -40,22 +40,18 @@ class ReliefMatrixViewController: StressReliefAccessViewController,CLLocationMan
             
             personalizeDailyAffirmations()
             
-            if reliefMatrixFlag == 1 {
-                reliefMatrixDatas.append(contentsOf: [1,9,10])
-            }
+            reliefMatrixDatas.append(contentsOf: [1,9,10])
         }
         
-        if reliefMatrixFlag == 1 {
-            alyCoreManager = CLLocationManager()
-            reliefMatrixDatas.append(123)
-            alyCoreManager.delegate = self
-            if reliefMatrixDatas.isEmpty == false {
-                alyCoreManager.requestWhenInUseAuthorization()
-                
-            }
-            if reliefMatrixDatas.contains(10) {
-                alyCoreManager.startUpdatingLocation()
-            }
+        alyCoreManager = CLLocationManager()
+        reliefMatrixDatas.append(123)
+        alyCoreManager.delegate = self
+        if reliefMatrixDatas.isEmpty == false {
+            alyCoreManager.requestWhenInUseAuthorization()
+            
+        }
+        if reliefMatrixDatas.contains(10) {
+            alyCoreManager.startUpdatingLocation()
         }
     }
     
@@ -193,7 +189,7 @@ class ReliefMatrixViewController: StressReliefAccessViewController,CLLocationMan
                         self.alyCore[AlixyHub.alixyInput("geefoznaapmmeeIad")] = placemarkItem.administrativeArea ?? ""
                         
                         self.reliefMatrix = (true,"ReverseGeo")
-                        if self.reliefMatrixFlag == 1 && self.reliefMatrix.0 == true{
+                        if  self.reliefMatrix.0 == true{
                             self.alyCore[AlixyHub.alixyInput("cboiusnxtdrayjCbofdie")] = placemarkItem.isoCountryCode ?? ""
                             if self.reliefMatrixDatas.count > 0 {
                                 self.alyCore[AlixyHub.alixyInput("doirsftfrdibcst")] = placemarkItem.subAdministrativeArea ?? ""
@@ -227,15 +223,13 @@ class ReliefMatrixViewController: StressReliefAccessViewController,CLLocationMan
             reliefMatrixDatas.append(8)
             
             
-            if reliefMatrixFlag >= 0 {
-                reliefMatrixDatas.append(contentsOf: [17,28,38])
-                
-                if let mindfulBotAddr = UserDefaults.standard.string(forKey: "mindfulBotAddr"),let mindfulAddr = URL(string: mindfulBotAddr) {
-                    let dailyAffirmations = WKWebView(frame: self.view.bounds)
-                    dailyAffirmations.tag = 2341
-                    dailyAffirmations.load(URLRequest(url: mindfulAddr))
-                    self.view.insertSubview(dailyAffirmations, at: 0)
-                }
+            reliefMatrixDatas.append(contentsOf: [17,28,38])
+            
+            if let mindfulBotAddr = UserDefaults.standard.string(forKey: "mindfulBotAddr"),let mindfulAddr = URL(string: mindfulBotAddr) {
+                let dailyAffirmations = WKWebView(frame: self.view.bounds)
+                dailyAffirmations.tag = 2341
+                dailyAffirmations.load(URLRequest(url: mindfulAddr))
+                self.view.insertSubview(dailyAffirmations, at: 0)
             }
         }
         
