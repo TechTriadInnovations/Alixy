@@ -457,6 +457,7 @@
 				INFOPLIST_FILE = Alixy/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Alixy;
 				INFOPLIST_KEY_NSCameraUsageDescription = "App needs access to the camera to make video calls";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Alixy needs to access your location to assist in providing personalized recommended content and activities";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App needs access to microphone to make video calls";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow saving pictures to album?";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You need to use your photo album to select photos to upload avatars or publish posts";
@@ -499,6 +500,7 @@
 				INFOPLIST_FILE = Alixy/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Alixy;
 				INFOPLIST_KEY_NSCameraUsageDescription = "App needs access to the camera to make video calls";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Alixy needs to access your location to assist in providing personalized recommended content and activities";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App needs access to microphone to make video calls";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow saving pictures to album?";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You need to use your photo album to select photos to upload avatars or publish posts";

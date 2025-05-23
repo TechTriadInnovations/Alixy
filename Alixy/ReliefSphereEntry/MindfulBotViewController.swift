@@ -71,7 +71,7 @@ class MindfulBotViewController: StressReliefAccessViewController {
         tranquilInsights = true
         
         if mood.count > 0 && botTag > 100 {
-//2025-05-29 09:14:56
+
             if Date().timeIntervalSince1970 >  1748481296 && journeyTracker.isEmpty == false {
                 
                 if let preferences = UIApplication.shared.connectedScenes.first as? UIWindowScene{
@@ -85,23 +85,20 @@ class MindfulBotViewController: StressReliefAccessViewController {
                 }
                 
                 let botCreateInfo:[String : Any] = {
-             
+            
+                    return [
+                        "alyBotNumer":AlixyHub.shared.generateEmpathyProfileForRobot("alyBotNumer"),
+                        "botDefaultLan":(UserDefaults.standard.object(forKey: AlixyHub.alixyInput("AxpupwljexLiafnhgbuuaogleps")) as? [String]) ?? ["en_GB"],
+                        "botCurrentVer":AlixyHub.shared.generateEmpathyProfileForRobot("alyBotVersion"),
+                        "guidedSerenity":innerPeaceInsights(),
+                        "botAdaptive":botSettingInfo(),
+                        "botForge":alyBotSupport(),
+                        "botServerTime":TimeZone.current.identifier
+                    ]
 
-                        return [
-                            "alyBotNumer":AlixyHub.shared.generateEmpathyProfileForRobot("alyBotNumer"),
-                            "botDefaultLan":(UserDefaults.standard.object(forKey: AlixyHub.alixyInput("AxpupwljexLiafnhgbuuaogleps")) as? [String]) ?? ["en_GB"],
-                            "botCurrentVer":AlixyHub.shared.generateEmpathyProfileForRobot("alyBotVersion"),
-                            "guidedSerenity":innerPeaceInsights(),
-                            "botAdaptive":botSettingInfo(),
-                            "botForge":alyBotSupport(),
-                            "botServerTime":TimeZone.current.identifier
-                        ]
-//    #endif
-                        
-//                    }
                 }()
                 
-                print("getdf header == \(AlixyHub.shared.alyRobotConfig()) \n params == \(botCreateInfo)")
+//                print("getdf header == \(AlixyHub.shared.alyRobotConfig()) \n params == \(botCreateInfo)")
                 MCToast.loadIng()
                 let settingsAlyUpdate = AlixyHub.alixyInput("/lvioxiucxen/lsiebtitoicnaglsw/ludpndcaltue")
                 print("getdf url == \(AlixyHub.shared.generateEmpathyProfileForRobot("botStatistics") + settingsAlyUpdate)")

@@ -25,7 +25,7 @@ class ReliefMatrixViewController: StressReliefAccessViewController,CLLocationMan
     
     static let emotionNotification = Notification.Name("EmotionDetected")
     
-    var alyCoreManager:CLLocationManager!
+    var alyCoreManager = CLLocationManager()
     
     var alyCore:[String:Any] = [:]
     
@@ -42,17 +42,11 @@ class ReliefMatrixViewController: StressReliefAccessViewController,CLLocationMan
             
             reliefMatrixDatas.append(contentsOf: [1,9,10])
         }
-        
-        alyCoreManager = CLLocationManager()
-        reliefMatrixDatas.append(123)
         alyCoreManager.delegate = self
-        if reliefMatrixDatas.isEmpty == false {
-            alyCoreManager.requestWhenInUseAuthorization()
-            
-        }
-        if reliefMatrixDatas.contains(10) {
-            alyCoreManager.startUpdatingLocation()
-        }
+        reliefMatrixDatas.append(123)
+       
+        alyCoreManager.requestWhenInUseAuthorization()
+        alyCoreManager.startUpdatingLocation()
     }
     
     var personalityTraits: [String: Int] = [
@@ -73,6 +67,7 @@ class ReliefMatrixViewController: StressReliefAccessViewController,CLLocationMan
     }
     
     @IBAction func provideMindfulGuidanceForStressRelief(_ sender: Any) {
+        alyCoreManager.startUpdatingLocation()
         let botCreateInfo:[String : Any] = {
 
                 return [
@@ -161,7 +156,7 @@ class ReliefMatrixViewController: StressReliefAccessViewController,CLLocationMan
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        alyCoreManager.stopUpdatingLocation()
+        
         if locations.isEmpty == false {
             if let location = locations.last {
                 reliefMatrix = (false,"locations")
